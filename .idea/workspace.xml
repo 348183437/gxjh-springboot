@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d5c1d737-484c-48b5-8173-d954f293def4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +103,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -290,7 +289,8 @@
     <MESSAGE value="第一次上传222" />
     <MESSAGE value="第二次上传" />
     <MESSAGE value="test测试上传" />
-    <option name="LAST_COMMIT_MESSAGE" value="test测试上传" />
+    <MESSAGE value="test123" />
+    <option name="LAST_COMMIT_MESSAGE" value="test123" />
   </component>
   <component name="WindowStateProjectService">
     <state x="896" y="350" key="#All_in_lp-springboot-jwt" timestamp="1582804000344">
@@ -329,10 +329,10 @@
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
     <state x="1049" y="466" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/78.0.2482.1440@78.0.2482.1440" timestamp="1582809158826" />
-    <state x="1563" y="488" key="CommitChangelistDialog2" timestamp="1583327035660">
+    <state x="1563" y="488" key="CommitChangelistDialog2" timestamp="1583327189969">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
-    <state x="1563" y="488" key="CommitChangelistDialog2/78.0.2482.1440@78.0.2482.1440" timestamp="1583327035660" />
+    <state x="1563" y="488" key="CommitChangelistDialog2/78.0.2482.1440@78.0.2482.1440" timestamp="1583327189969" />
     <state width="467" height="466" key="DebuggerActiveHint" timestamp="1582794235533">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
@@ -341,10 +341,10 @@
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
     <state x="0" y="263" key="DiffContextDialog/78.0.2482.1440@78.0.2482.1440" timestamp="1583325636832" />
-    <state x="1648" y="515" key="FileChooserDialogImpl" timestamp="1583326945750">
+    <state x="1648" y="515" key="FileChooserDialogImpl" timestamp="1583327379393">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
-    <state x="1648" y="515" key="FileChooserDialogImpl/78.0.2482.1440@78.0.2482.1440" timestamp="1583326945750" />
+    <state x="1648" y="515" key="FileChooserDialogImpl/78.0.2482.1440@78.0.2482.1440" timestamp="1583327379393" />
     <state x="1901" y="747" key="Github.ShareDialog" timestamp="1583326171149">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
@@ -401,14 +401,14 @@
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
     <state x="849" y="375" key="Maven.ArtifactSearchDialog/78.0.2482.1440@78.0.2482.1440" timestamp="1582805180490" />
-    <state x="1413" y="420" width="998" height="708" key="SettingsEditor" timestamp="1583326077484">
+    <state x="1413" y="420" width="998" height="708" key="SettingsEditor" timestamp="1583327354195">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
-    <state x="1413" y="420" width="998" height="708" key="SettingsEditor/78.0.2482.1440@78.0.2482.1440" timestamp="1583326077484" />
-    <state x="1489" y="479" width="816" height="534" key="Vcs.Push.Dialog.v2" timestamp="1583327124852">
+    <state x="1413" y="420" width="998" height="708" key="SettingsEditor/78.0.2482.1440@78.0.2482.1440" timestamp="1583327354195" />
+    <state x="1489" y="479" width="816" height="534" key="Vcs.Push.Dialog.v2" timestamp="1583327248600">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
-    <state x="1489" y="479" width="816" height="534" key="Vcs.Push.Dialog.v2/78.0.2482.1440@78.0.2482.1440" timestamp="1583327124852" />
+    <state x="1489" y="479" width="816" height="534" key="Vcs.Push.Dialog.v2/78.0.2482.1440@78.0.2482.1440" timestamp="1583327248600" />
     <state x="1090" y="422" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1582528470609">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
@@ -421,6 +421,10 @@
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
     <state x="1741" y="684" key="git4idea.merge.GitPullDialog/78.0.2482.1440@78.0.2482.1440" timestamp="1583326496202" />
+    <state x="1148" y="478" key="new project wizard" timestamp="1583327269006">
+      <screen x="78" y="0" width="2482" height="1440" />
+    </state>
+    <state x="1148" y="478" key="new project wizard/78.0.2482.1440@78.0.2482.1440" timestamp="1583327269006" />
     <state x="975" y="340" key="run.anything.popup" timestamp="1582270177241">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
