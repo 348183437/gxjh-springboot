@@ -2,81 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5c1d737-484c-48b5-8173-d954f293def4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Gxjh-Spring-boot.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/6d753b70-0f6f-45d7-a1fb-bb34416eaabf.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/6d753b70-0f6f-45d7-a1fb-bb34416eaabf/storage_v2/_src_/schema/DB_SHCD.lyApgw.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/6d753b70-0f6f-45d7-a1fb-bb34416eaabf/storage_v2/_src_/schema/PUBLIC.aaZQjQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/6d753b70-0f6f-45d7-a1fb-bb34416eaabf/storage_v2/_src_/schema/SYS.rUIBAA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/6d753b70-0f6f-45d7-a1fb-bb34416eaabf/storage_v2/_src_/schema/SYSTEM.L2avkg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/ly_345.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.en.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cn/shcd/AccountIdentifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cn/shcd/Permission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cn/shcd/annotations/NeedLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cn/shcd/gxjh/HelloWordApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cn/shcd/gxjh/LpAccountApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cn/shcd/gxjh/Swagger2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cn/shcd/gxjh/domain/AuthConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cn/shcd/gxjh/domain/CommonWebAuthInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cn/shcd/gxjh/domain/ResponseHeaderAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cn/shcd/gxjh/domain/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cn/shcd/gxjh/domain/WebConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cn/shcd/gxjh/domain/WebExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cn/shcd/gxjh/domain/exception/AuthException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cn/shcd/gxjh/domain/role/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cn/shcd/gxjh/domain/role/AccountManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cn/shcd/gxjh/domain/role/AccountMeta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cn/shcd/gxjh/domain/role/AccountPermission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cn/shcd/gxjh/domain/role/SysPermission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cn/shcd/gxjh/domain/utils/CodingUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cn/shcd/interceptor/WebAuthInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cn/shcd/utils/CommonTools.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cn/shcd/utils/JwtUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cn/shcd/AccountIdentifier.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cn/shcd/Permission.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cn/shcd/annotations/NeedLogin.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cn/shcd/gxjh/HelloWordApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cn/shcd/gxjh/LpAccountApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cn/shcd/gxjh/Swagger2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cn/shcd/gxjh/domain/AuthConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cn/shcd/gxjh/domain/CommonWebAuthInterceptor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cn/shcd/gxjh/domain/ResponseHeaderAdvice.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cn/shcd/gxjh/domain/TestController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cn/shcd/gxjh/domain/WebConfiguration.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cn/shcd/gxjh/domain/WebExceptionHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cn/shcd/gxjh/domain/exception/AuthException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cn/shcd/gxjh/domain/role/Account.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cn/shcd/gxjh/domain/role/AccountManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cn/shcd/gxjh/domain/role/AccountMeta.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cn/shcd/gxjh/domain/role/AccountPermission.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cn/shcd/gxjh/domain/role/SysPermission.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cn/shcd/gxjh/domain/utils/CodingUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cn/shcd/interceptor/WebAuthInterceptor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cn/shcd/utils/CommonTools.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cn/shcd/utils/JwtUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/lp-springboot-jwt-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/lp-springboot-jwt-1.0-SNAPSHOT.jar.original" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/META-INF/lp-springboot-jwt.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/shcd/gxjh/domain/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cn/shcd/gxjh/domain/TestController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -330,7 +257,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="新增跨域和token刷新" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增跨域和token刷新" />
+    <MESSAGE value="框架整合" />
+    <MESSAGE value="第一次上传" />
+    <option name="LAST_COMMIT_MESSAGE" value="第一次上传" />
   </component>
   <component name="WindowStateProjectService">
     <state x="896" y="350" key="#All_in_lp-springboot-jwt" timestamp="1582804000344">
@@ -369,14 +298,18 @@
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
     <state x="1049" y="466" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/78.0.2482.1440@78.0.2482.1440" timestamp="1582809158826" />
-    <state x="1563" y="488" key="CommitChangelistDialog2" timestamp="1583325533752">
+    <state x="1563" y="488" key="CommitChangelistDialog2" timestamp="1583325683196">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
-    <state x="1563" y="488" key="CommitChangelistDialog2/78.0.2482.1440@78.0.2482.1440" timestamp="1583325533752" />
+    <state x="1563" y="488" key="CommitChangelistDialog2/78.0.2482.1440@78.0.2482.1440" timestamp="1583325683196" />
     <state width="467" height="466" key="DebuggerActiveHint" timestamp="1582794235533">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
     <state width="467" height="466" key="DebuggerActiveHint/78.0.2482.1440@78.0.2482.1440" timestamp="1582794235533" />
+    <state x="0" y="263" key="DiffContextDialog" timestamp="1583325636832">
+      <screen x="78" y="0" width="2482" height="1440" />
+    </state>
+    <state x="0" y="263" key="DiffContextDialog/78.0.2482.1440@78.0.2482.1440" timestamp="1583325636832" />
     <state x="1648" y="515" key="FileChooserDialogImpl" timestamp="1583325339859">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
@@ -437,6 +370,10 @@
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
     <state x="1413" y="420" width="998" height="708" key="SettingsEditor/78.0.2482.1440@78.0.2482.1440" timestamp="1583325287692" />
+    <state x="1268" y="428" width="816" height="534" key="Vcs.Push.Dialog.v2" timestamp="1583325688762">
+      <screen x="78" y="0" width="2482" height="1440" />
+    </state>
+    <state x="1268" y="428" width="816" height="534" key="Vcs.Push.Dialog.v2/78.0.2482.1440@78.0.2482.1440" timestamp="1583325688762" />
     <state x="1090" y="422" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1582528470609">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
