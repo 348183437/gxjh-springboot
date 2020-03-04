@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d5c1d737-484c-48b5-8173-d954f293def4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/shcd/gxjh/domain/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cn/shcd/gxjh/domain/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -259,7 +259,8 @@
     <MESSAGE value="新增跨域和token刷新" />
     <MESSAGE value="框架整合" />
     <MESSAGE value="第一次上传" />
-    <option name="LAST_COMMIT_MESSAGE" value="第一次上传" />
+    <MESSAGE value="第一次上传222" />
+    <option name="LAST_COMMIT_MESSAGE" value="第一次上传222" />
   </component>
   <component name="WindowStateProjectService">
     <state x="896" y="350" key="#All_in_lp-springboot-jwt" timestamp="1582804000344">
@@ -298,10 +299,10 @@
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
     <state x="1049" y="466" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/78.0.2482.1440@78.0.2482.1440" timestamp="1582809158826" />
-    <state x="1563" y="488" key="CommitChangelistDialog2" timestamp="1583325683196">
+    <state x="1563" y="488" key="CommitChangelistDialog2" timestamp="1583325858855">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
-    <state x="1563" y="488" key="CommitChangelistDialog2/78.0.2482.1440@78.0.2482.1440" timestamp="1583325683196" />
+    <state x="1563" y="488" key="CommitChangelistDialog2/78.0.2482.1440@78.0.2482.1440" timestamp="1583325858855" />
     <state width="467" height="466" key="DebuggerActiveHint" timestamp="1582794235533">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
@@ -314,6 +315,10 @@
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
     <state x="1648" y="515" key="FileChooserDialogImpl/78.0.2482.1440@78.0.2482.1440" timestamp="1583325339859" />
+    <state x="1901" y="747" key="Github.ShareDialog" timestamp="1583326171149">
+      <screen x="78" y="0" width="2482" height="1440" />
+    </state>
+    <state x="1901" y="747" key="Github.ShareDialog/78.0.2482.1440@78.0.2482.1440" timestamp="1583326171149" />
     <state width="2439" height="200" key="GridCell.Tab.0.bottom" timestamp="1583324890722">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
@@ -366,10 +371,10 @@
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
     <state x="849" y="375" key="Maven.ArtifactSearchDialog/78.0.2482.1440@78.0.2482.1440" timestamp="1582805180490" />
-    <state x="1413" y="420" width="998" height="708" key="SettingsEditor" timestamp="1583325287692">
+    <state x="1413" y="420" width="998" height="708" key="SettingsEditor" timestamp="1583326077484">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
-    <state x="1413" y="420" width="998" height="708" key="SettingsEditor/78.0.2482.1440@78.0.2482.1440" timestamp="1583325287692" />
+    <state x="1413" y="420" width="998" height="708" key="SettingsEditor/78.0.2482.1440@78.0.2482.1440" timestamp="1583326077484" />
     <state x="1268" y="428" width="816" height="534" key="Vcs.Push.Dialog.v2" timestamp="1583325688762">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
