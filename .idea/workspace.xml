@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5c1d737-484c-48b5-8173-d954f293def4" name="Default Changelist" comment="第二次上传">
+    <list default="true" id="d5c1d737-484c-48b5-8173-d954f293def4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
@@ -262,13 +262,35 @@
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.yml" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="新增跨域和token刷新" />
     <MESSAGE value="框架整合" />
     <MESSAGE value="第一次上传" />
     <MESSAGE value="第一次上传222" />
     <MESSAGE value="第二次上传" />
-    <option name="LAST_COMMIT_MESSAGE" value="第二次上传" />
+    <MESSAGE value="test测试上传" />
+    <option name="LAST_COMMIT_MESSAGE" value="test测试上传" />
   </component>
   <component name="WindowStateProjectService">
     <state x="896" y="350" key="#All_in_lp-springboot-jwt" timestamp="1582804000344">
@@ -307,10 +329,10 @@
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
     <state x="1049" y="466" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/78.0.2482.1440@78.0.2482.1440" timestamp="1582809158826" />
-    <state x="1563" y="488" key="CommitChangelistDialog2" timestamp="1583326589309">
+    <state x="1563" y="488" key="CommitChangelistDialog2" timestamp="1583326779285">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
-    <state x="1563" y="488" key="CommitChangelistDialog2/78.0.2482.1440@78.0.2482.1440" timestamp="1583326589309" />
+    <state x="1563" y="488" key="CommitChangelistDialog2/78.0.2482.1440@78.0.2482.1440" timestamp="1583326779285" />
     <state width="467" height="466" key="DebuggerActiveHint" timestamp="1582794235533">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
@@ -319,10 +341,10 @@
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
     <state x="0" y="263" key="DiffContextDialog/78.0.2482.1440@78.0.2482.1440" timestamp="1583325636832" />
-    <state x="1648" y="515" key="FileChooserDialogImpl" timestamp="1583325339859">
+    <state x="1648" y="515" key="FileChooserDialogImpl" timestamp="1583326945750">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
-    <state x="1648" y="515" key="FileChooserDialogImpl/78.0.2482.1440@78.0.2482.1440" timestamp="1583325339859" />
+    <state x="1648" y="515" key="FileChooserDialogImpl/78.0.2482.1440@78.0.2482.1440" timestamp="1583326945750" />
     <state x="1901" y="747" key="Github.ShareDialog" timestamp="1583326171149">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
@@ -383,10 +405,10 @@
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
     <state x="1413" y="420" width="998" height="708" key="SettingsEditor/78.0.2482.1440@78.0.2482.1440" timestamp="1583326077484" />
-    <state x="1489" y="479" width="816" height="534" key="Vcs.Push.Dialog.v2" timestamp="1583326624606">
+    <state x="1489" y="479" width="816" height="534" key="Vcs.Push.Dialog.v2" timestamp="1583326798232">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
-    <state x="1489" y="479" width="816" height="534" key="Vcs.Push.Dialog.v2/78.0.2482.1440@78.0.2482.1440" timestamp="1583326624606" />
+    <state x="1489" y="479" width="816" height="534" key="Vcs.Push.Dialog.v2/78.0.2482.1440@78.0.2482.1440" timestamp="1583326798232" />
     <state x="1090" y="422" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1582528470609">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
