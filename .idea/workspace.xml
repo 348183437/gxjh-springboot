@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d5c1d737-484c-48b5-8173-d954f293def4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -276,7 +277,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -290,7 +293,8 @@
     <MESSAGE value="第二次上传" />
     <MESSAGE value="test测试上传" />
     <MESSAGE value="test123" />
-    <option name="LAST_COMMIT_MESSAGE" value="test123" />
+    <MESSAGE value="第二次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="第二次提交" />
   </component>
   <component name="WindowStateProjectService">
     <state x="896" y="350" key="#All_in_lp-springboot-jwt" timestamp="1582804000344">
@@ -329,10 +333,10 @@
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
     <state x="1049" y="466" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/78.0.2482.1440@78.0.2482.1440" timestamp="1582809158826" />
-    <state x="1563" y="488" key="CommitChangelistDialog2" timestamp="1583327189969">
+    <state x="1563" y="488" key="CommitChangelistDialog2" timestamp="1583327429625">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
-    <state x="1563" y="488" key="CommitChangelistDialog2/78.0.2482.1440@78.0.2482.1440" timestamp="1583327189969" />
+    <state x="1563" y="488" key="CommitChangelistDialog2/78.0.2482.1440@78.0.2482.1440" timestamp="1583327429625" />
     <state width="467" height="466" key="DebuggerActiveHint" timestamp="1582794235533">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
@@ -345,10 +349,10 @@
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
     <state x="1648" y="515" key="FileChooserDialogImpl/78.0.2482.1440@78.0.2482.1440" timestamp="1583327379393" />
-    <state x="1901" y="747" key="Github.ShareDialog" timestamp="1583326171149">
+    <state x="1901" y="747" key="Github.ShareDialog" timestamp="1583327571460">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
-    <state x="1901" y="747" key="Github.ShareDialog/78.0.2482.1440@78.0.2482.1440" timestamp="1583326171149" />
+    <state x="1901" y="747" key="Github.ShareDialog/78.0.2482.1440@78.0.2482.1440" timestamp="1583327571460" />
     <state width="2439" height="200" key="GridCell.Tab.0.bottom" timestamp="1583324890722">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
@@ -405,10 +409,14 @@
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
     <state x="1413" y="420" width="998" height="708" key="SettingsEditor/78.0.2482.1440@78.0.2482.1440" timestamp="1583327354195" />
-    <state x="1489" y="479" width="816" height="534" key="Vcs.Push.Dialog.v2" timestamp="1583327248600">
+    <state x="1489" y="479" width="816" height="534" key="Vcs.Push.Dialog.v2" timestamp="1583327445091">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
-    <state x="1489" y="479" width="816" height="534" key="Vcs.Push.Dialog.v2/78.0.2482.1440@78.0.2482.1440" timestamp="1583327248600" />
+    <state x="1489" y="479" width="816" height="534" key="Vcs.Push.Dialog.v2/78.0.2482.1440@78.0.2482.1440" timestamp="1583327445091" />
+    <state x="1562" y="1004" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583327694170">
+      <screen x="78" y="0" width="2482" height="1440" />
+    </state>
+    <state x="1562" y="1004" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/78.0.2482.1440@78.0.2482.1440" timestamp="1583327694170" />
     <state x="1090" y="422" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1582528470609">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
