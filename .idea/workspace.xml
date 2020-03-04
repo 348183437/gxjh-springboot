@@ -43,6 +43,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/348183437/Gxjh-springboot.git" />
+      </set>
+    </option>
+  </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
       <set>
@@ -300,10 +307,10 @@
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
     <state x="1049" y="466" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/78.0.2482.1440@78.0.2482.1440" timestamp="1582809158826" />
-    <state x="1563" y="488" key="CommitChangelistDialog2" timestamp="1583326561072">
+    <state x="1563" y="488" key="CommitChangelistDialog2" timestamp="1583326589309">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
-    <state x="1563" y="488" key="CommitChangelistDialog2/78.0.2482.1440@78.0.2482.1440" timestamp="1583326561072" />
+    <state x="1563" y="488" key="CommitChangelistDialog2/78.0.2482.1440@78.0.2482.1440" timestamp="1583326589309" />
     <state width="467" height="466" key="DebuggerActiveHint" timestamp="1582794235533">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
@@ -376,10 +383,10 @@
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
     <state x="1413" y="420" width="998" height="708" key="SettingsEditor/78.0.2482.1440@78.0.2482.1440" timestamp="1583326077484" />
-    <state x="1489" y="479" width="816" height="534" key="Vcs.Push.Dialog.v2" timestamp="1583326336518">
+    <state x="1489" y="479" width="816" height="534" key="Vcs.Push.Dialog.v2" timestamp="1583326624606">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
-    <state x="1489" y="479" width="816" height="534" key="Vcs.Push.Dialog.v2/78.0.2482.1440@78.0.2482.1440" timestamp="1583326336518" />
+    <state x="1489" y="479" width="816" height="534" key="Vcs.Push.Dialog.v2/78.0.2482.1440@78.0.2482.1440" timestamp="1583326624606" />
     <state x="1090" y="422" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1582528470609">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
