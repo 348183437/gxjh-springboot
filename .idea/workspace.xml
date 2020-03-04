@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5c1d737-484c-48b5-8173-d954f293def4" name="Default Changelist" comment="">
+    <list default="true" id="d5c1d737-484c-48b5-8173-d954f293def4" name="Default Changelist" comment="第二次上传">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
@@ -260,7 +260,8 @@
     <MESSAGE value="框架整合" />
     <MESSAGE value="第一次上传" />
     <MESSAGE value="第一次上传222" />
-    <option name="LAST_COMMIT_MESSAGE" value="第一次上传222" />
+    <MESSAGE value="第二次上传" />
+    <option name="LAST_COMMIT_MESSAGE" value="第二次上传" />
   </component>
   <component name="WindowStateProjectService">
     <state x="896" y="350" key="#All_in_lp-springboot-jwt" timestamp="1582804000344">
@@ -299,10 +300,10 @@
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
     <state x="1049" y="466" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/78.0.2482.1440@78.0.2482.1440" timestamp="1582809158826" />
-    <state x="1563" y="488" key="CommitChangelistDialog2" timestamp="1583325858855">
+    <state x="1563" y="488" key="CommitChangelistDialog2" timestamp="1583326561072">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
-    <state x="1563" y="488" key="CommitChangelistDialog2/78.0.2482.1440@78.0.2482.1440" timestamp="1583325858855" />
+    <state x="1563" y="488" key="CommitChangelistDialog2/78.0.2482.1440@78.0.2482.1440" timestamp="1583326561072" />
     <state width="467" height="466" key="DebuggerActiveHint" timestamp="1582794235533">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
@@ -375,10 +376,10 @@
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
     <state x="1413" y="420" width="998" height="708" key="SettingsEditor/78.0.2482.1440@78.0.2482.1440" timestamp="1583326077484" />
-    <state x="1268" y="428" width="816" height="534" key="Vcs.Push.Dialog.v2" timestamp="1583325688762">
+    <state x="1489" y="479" width="816" height="534" key="Vcs.Push.Dialog.v2" timestamp="1583326336518">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
-    <state x="1268" y="428" width="816" height="534" key="Vcs.Push.Dialog.v2/78.0.2482.1440@78.0.2482.1440" timestamp="1583325688762" />
+    <state x="1489" y="479" width="816" height="534" key="Vcs.Push.Dialog.v2/78.0.2482.1440@78.0.2482.1440" timestamp="1583326336518" />
     <state x="1090" y="422" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1582528470609">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
@@ -387,6 +388,10 @@
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
     <state x="1292" y="540" width="1056" height="900" key="find.popup/78.0.2482.1440@78.0.2482.1440" timestamp="1582810061619" />
+    <state x="1741" y="684" key="git4idea.merge.GitPullDialog" timestamp="1583326496202">
+      <screen x="78" y="0" width="2482" height="1440" />
+    </state>
+    <state x="1741" y="684" key="git4idea.merge.GitPullDialog/78.0.2482.1440@78.0.2482.1440" timestamp="1583326496202" />
     <state x="975" y="340" key="run.anything.popup" timestamp="1582270177241">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
