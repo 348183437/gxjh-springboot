@@ -1,4 +1,4 @@
-package com.cn.shcd.gxjh;
+package com.cn.shcd.gxjh.controller;
 
 import io.swagger.annotations.ApiOperation;
 import org.springframework.context.annotation.Bean;

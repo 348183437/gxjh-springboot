@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="@10.81.69.67" uuid="6d753b70-0f6f-45d7-a1fb-bb34416eaabf">
+    <data-source name="政务网" uuid="6d753b70-0f6f-45d7-a1fb-bb34416eaabf">
       <database-info product="Oracle" version="Oracle Database 11g Enterprise Edition Release 11.2.0.4.0 - 64bit Production&#10;With the Partitioning, OLAP, Data Mining and Real Application Testing options" jdbc-version="4.2" driver-name="Oracle JDBC driver" driver-version="12.2.0.1.0" dbms="ORACLE" exact-version="11.2.0.4.0" exact-driver-version="12.2">
         <extra-name-characters>$#</extra-name-characters>
         <identifier-quote-string>&quot;</identifier-quote-string>
@@ -13,7 +13,7 @@
         <introspection-scope>
           <node kind="schema">
             <name qname="@" />
-            <name qname="PUBLIC" />
+            <name qname="DB_FRAME" />
           </node>
         </introspection-scope>
       </schema-mapping>

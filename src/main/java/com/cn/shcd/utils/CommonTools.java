@@ -6,15 +6,16 @@ import com.alibaba.fastjson.JSONObject;
  * 常用工具类
  */
 
+//@SuppressWarnings({"ALL", "AlibabaClassMustHaveAuthor"})
 public class CommonTools {
-    /**
-     *  json返回值格式
-     * @param msg  提示信息
-     * @param code 错位代码
-     * @param date  返回数据
-     *
-     */
-    public static String ReturnString(String msg, String code, JSONObject date){
+/**
+ * @Author zhanghaohao
+ * @Description 通用返回数据格式
+ * @Date 23:42 2020/3/24
+ * @Param [msg 提示信息, code 错误代码, date 返回数据]
+ * @return java.lang.String
+**/
+    public static String returnString(String msg, String code, JSONObject date){
         JSONObject jsonObject = new JSONObject();
         jsonObject.put("msg",msg);
         jsonObject.put("code",code);

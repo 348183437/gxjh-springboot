@@ -7,6 +7,7 @@ import com.cn.shcd.gxjh.domain.exception.AuthException;
 import com.cn.shcd.gxjh.domain.role.AccountManager;
 import com.cn.shcd.gxjh.domain.role.AccountMeta;
 import com.cn.shcd.gxjh.domain.role.AccountPermission;
+import com.cn.shcd.gxjh.entity.UserInfo;
 import com.cn.shcd.interceptor.WebAuthInterceptor;
 import com.cn.shcd.utils.JwtUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -51,7 +52,8 @@ public class CommonWebAuthInterceptor extends WebAuthInterceptor {
     @Override
     protected Optional<AccountIdentifier> verifyAndGetIdentifier(String token, HttpServletRequest request, HttpServletResponse response, HandlerMethod handler) {
         if (JwtUtils.verifyToken(token, authConfig.getSecretKey())) {
-            Long uid = Long.valueOf(JwtUtils.getClaimMap(token).get(AccountMeta.UID_PARAM_NAME));
+            UserInfo userInfo = new UserInfo();
+            Long uid = Long.valueOf(JwtUtils.getClaimMap(token).get(userInfo.getUsername()));
             return Optional.ofNullable(AccountMeta.of(uid));
         }
         return Optional.empty();

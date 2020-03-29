@@ -11,7 +11,7 @@ import java.util.List;
  */
 public class Account implements AccountIdentifier {
 
-    private long uid;
+    private String uid;
 
     private List<Permission> permissionList = new ArrayList<>();
 
@@ -26,11 +26,11 @@ public class Account implements AccountIdentifier {
         return this;
     }
 
-    public Long getUid() {
+    public String getUid() {
         return uid;
     }
 
-    protected Account setUid(long uid) {
+    protected Account setUid(String uid) {
         this.uid = uid;
         return this;
     }

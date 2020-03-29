@@ -18,4 +18,5 @@ public class AuthException extends RuntimeException {
         super(throwable);
     }
 
+
 }
