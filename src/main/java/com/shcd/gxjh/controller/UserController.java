@@ -71,20 +71,20 @@ public class UserController {
                 Map<String, String> paramMap = new HashMap<>();
                 paramMap.put(AccountMeta.UID_PARAM_NAME,userInfo.getId());
                 paramMap.put(AccountMeta.ACCOUNT_NAME_PARAM_NAME, userInfo.getUsername());
-                List<UserPermission> userPermissionList = userInfoServer.getUserPermission(userInfo.getRole());
+//                List<UserPermission> userPermissionList = userInfoServer.getUserPermission(userInfo.getRole().toString());
 //            获取签名
                 String tok = JwtUtils.sign(authConfig.getSecretKey(), authConfig.getTokenRefreshSpace(), paramMap);
 //            AES加密
                 String token = CodingUtils.encryptAES(tok, authConfig.getTokenSecretKey());
                 jsonObject.put("token",token);
-                jsonObject.put("userPermission",userPermissionList);
+//                jsonObject.put("userPermission",userPermissionList);
                 jsonObject.put("userinfo",userInfo);
                 return CommonTools.returnString("登录成功","200",jsonObject);
         }else{
             return  CommonTools.returnString("密码错误","401",jsonObject);
         }
     }
-    @NeedLogin(SysPermission.TEST_PERMISSION_1)
+    @NeedLogin(SysPermission.PERMISSION_15)
     @ApiImplicitParams({
             @ApiImplicitParam(paramType = "header", dataType = "String", name = "lp_token", value = "令牌", required = true)
     })
@@ -95,7 +95,7 @@ public class UserController {
         return "success";
     }
 
-    @NeedLogin({SysPermission.TEST_PERMISSION_1, SysPermission.TEST_PERMISSION_2})
+    @NeedLogin({SysPermission.PERMISSION_1})
     @ApiImplicitParams({
             @ApiImplicitParam(paramType = "header", dataType = "String", name = "lp_token", value = "令牌", required = true)
     })

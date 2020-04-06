@@ -5,11 +5,13 @@ package com.shcd.gxjh.domain.role;
  */
 public enum AccountPermission implements SysPermission {
 
-    TEST_PERMISSION_1(SysPermission.TEST_PERMISSION_1, "测试权限1"),
+    PERMISSION_1(SysPermission.PERMISSION_1, "模块1111"),
 
-    TEST_PERMISSION_2(SysPermission.TEST_PERMISSION_2, "测试权限2"),
+    PERMISSION_2(SysPermission.PERMISSION_1, "测试权限2"),
 
-    TEST_PERMISSION_3(SysPermission.TEST_PERMISSION_2, "测试权限3"),;
+    PERMISSION_3(SysPermission.PERMISSION_1, "测试权限3"),
+
+    PERMISSION_15(SysPermission.PERMISSION_15, "测试权限15"),;
     private int id;
 
     private String desc;

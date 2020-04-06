@@ -5,8 +5,27 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5c1d737-484c-48b5-8173-d954f293def4" name="Default Changelist" comment="新增mybatis">
+    <list default="true" id="d5c1d737-484c-48b5-8173-d954f293def4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shcd/gxjh/domain/role/CustomPermission.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shcd/gxjh/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shcd/gxjh/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shcd/gxjh/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shcd/gxjh/dao/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shcd/gxjh/domain/CommonWebAuthInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shcd/gxjh/domain/CommonWebAuthInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shcd/gxjh/domain/role/AccountManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shcd/gxjh/domain/role/AccountManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shcd/gxjh/domain/role/AccountPermission.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shcd/gxjh/domain/role/AccountPermission.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shcd/gxjh/domain/role/SysPermission.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shcd/gxjh/domain/role/SysPermission.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shcd/gxjh/service/UserInfoServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shcd/gxjh/service/UserInfoServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/user-mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/user-mapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com.shcd.test/MapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com.shcd.test/MapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shcd/gxjh/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shcd/gxjh/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shcd/gxjh/dao/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shcd/gxjh/dao/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shcd/gxjh/domain/CommonWebAuthInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shcd/gxjh/domain/CommonWebAuthInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shcd/gxjh/domain/role/AccountManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shcd/gxjh/domain/role/AccountManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shcd/gxjh/domain/role/AccountPermission.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shcd/gxjh/domain/role/AccountPermission.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shcd/gxjh/domain/role/SysPermission.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shcd/gxjh/domain/role/SysPermission.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shcd/gxjh/service/UserInfoServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shcd/gxjh/service/UserInfoServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/user-mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/user-mapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/shcd/test/MapperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/shcd/test/MapperTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +61,27 @@
         <item name="政务网" type="feb32156:DbDataSourceImpl" />
         <item name="DB_FRAME: schema" type="3abd1b6a:OraImplModel$Schema" />
         <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="政务网" type="feb32156:DbDataSourceImpl" />
+        <item name="DB_FRAME: schema" type="3abd1b6a:OraImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="USER_PERMISSIONS: table" type="942f455b:OraImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="政务网" type="feb32156:DbDataSourceImpl" />
+        <item name="DB_FRAME: schema" type="3abd1b6a:OraImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="USER_ROLE: table" type="942f455b:OraImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="政务网" type="feb32156:DbDataSourceImpl" />
+        <item name="DB_FRAME: schema" type="3abd1b6a:OraImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="USERINFO: table" type="942f455b:OraImplModel$Table" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
@@ -150,15 +190,14 @@
     <property name="settings.editor.selected.configurable" value="GrepConsole" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Project\Java\gxjh-springboot\src\test\com" />
+      <recent name="D:\Project\Java\gxjh-springboot\src\test" />
+      <recent name="D:\Project\Java\gxjh-springboot\src\test\java\com.gxjh.test" />
+      <recent name="D:\Project\Java\gxjh-springboot\src\main\resources\mapper" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Project\Java\gxjh-springboot\src\test\java\com.shcd.test" />
-      <recent name="D:\Project\Java\gxjh-springboot\src\test\java" />
-      <recent name="D:\Project\lp-demo\lp-springboot-jwt\src\main" />
-      <recent name="D:\Project\lp-demo\lp-springboot-jwt\src\main\java\com\cn\shcd" />
-      <recent name="D:\Project\lp-demo\lp-springboot-jwt\src\test\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="java.com.gxjh.test" />
@@ -167,11 +206,12 @@
       <recent name="com.cn.lp.domain.utils" />
       <recent name="com.cn.lp.domain.exception" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Project\Java\gxjh-springboot\src\test\com" />
-      <recent name="D:\Project\Java\gxjh-springboot\src\test" />
-      <recent name="D:\Project\Java\gxjh-springboot\src\test\java\com.gxjh.test" />
-      <recent name="D:\Project\Java\gxjh-springboot\src\main\resources\mapper" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\Java\gxjh-springboot\src\test\java\com.shcd.test" />
+      <recent name="D:\Project\Java\gxjh-springboot\src\test\java" />
+      <recent name="D:\Project\lp-demo\lp-springboot-jwt\src\main" />
+      <recent name="D:\Project\lp-demo\lp-springboot-jwt\src\main\java\com\cn\shcd" />
+      <recent name="D:\Project\lp-demo\lp-springboot-jwt\src\test\resources" />
     </key>
   </component>
   <component name="RestServicesNavigator">
@@ -269,7 +309,12 @@
       <list>
         <serviceView>
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:政务网" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -445,10 +490,14 @@
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
     <state x="1050" y="522" key="#com.intellij.fileTypes.FileTypeChooser/78.0.2482.1440@78.0.2482.1440" timestamp="1585472376023" />
-    <state x="1124" y="417" key="#com.intellij.ide.util.MemberChooser" timestamp="1586165638012">
+    <state x="1124" y="417" key="#com.intellij.ide.util.MemberChooser" timestamp="1586174018079">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
-    <state x="1124" y="417" key="#com.intellij.ide.util.MemberChooser/78.0.2482.1440@78.0.2482.1440" timestamp="1586165638012" />
+    <state x="1124" y="417" key="#com.intellij.ide.util.MemberChooser/78.0.2482.1440@78.0.2482.1440" timestamp="1586174018079" />
+    <state x="1049" y="498" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1586170252022">
+      <screen x="78" y="0" width="2482" height="1440" />
+    </state>
+    <state x="1049" y="498" key="#com.intellij.ide.util.PackageChooserDialog/78.0.2482.1440@78.0.2482.1440" timestamp="1586170252022" />
     <state x="1000" y="606" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1585473429936">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
@@ -477,14 +526,14 @@
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
     <state x="1049" y="466" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/78.0.2482.1440@78.0.2482.1440" timestamp="1585474571544" />
-    <state x="1070" y="304" key="CommitChangelistDialog2" timestamp="1586167726665">
+    <state x="1070" y="304" key="CommitChangelistDialog2" timestamp="1586167808099">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
-    <state x="1070" y="304" key="CommitChangelistDialog2/78.0.2482.1440@78.0.2482.1440" timestamp="1586167726665" />
-    <state width="653" height="466" key="DebuggerActiveHint" timestamp="1586166692492">
+    <state x="1070" y="304" key="CommitChangelistDialog2/78.0.2482.1440@78.0.2482.1440" timestamp="1586167808099" />
+    <state width="653" height="466" key="DebuggerActiveHint" timestamp="1586183902131">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
-    <state width="653" height="466" key="DebuggerActiveHint/78.0.2482.1440@78.0.2482.1440" timestamp="1586166692492" />
+    <state width="653" height="466" key="DebuggerActiveHint/78.0.2482.1440@78.0.2482.1440" timestamp="1586183902131" />
     <state x="0" y="263" key="DiffContextDialog" timestamp="1583325636832">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
@@ -497,54 +546,54 @@
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
     <state x="1901" y="747" key="Github.ShareDialog/78.0.2482.1440@78.0.2482.1440" timestamp="1583327571460" />
-    <state width="2439" height="316" key="GridCell.Tab.0.bottom" timestamp="1586167695385">
+    <state width="2439" height="532" key="GridCell.Tab.0.bottom" timestamp="1586183949138">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
-    <state width="2439" height="316" key="GridCell.Tab.0.bottom/78.0.2482.1440@78.0.2482.1440" timestamp="1586167695385" />
-    <state width="2439" height="316" key="GridCell.Tab.0.center" timestamp="1586167695385">
+    <state width="2439" height="532" key="GridCell.Tab.0.bottom/78.0.2482.1440@78.0.2482.1440" timestamp="1586183949138" />
+    <state width="2439" height="532" key="GridCell.Tab.0.center" timestamp="1586183949138">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
-    <state width="2439" height="316" key="GridCell.Tab.0.center/78.0.2482.1440@78.0.2482.1440" timestamp="1586167695385" />
-    <state width="2439" height="316" key="GridCell.Tab.0.left" timestamp="1586167695385">
+    <state width="2439" height="532" key="GridCell.Tab.0.center/78.0.2482.1440@78.0.2482.1440" timestamp="1586183949138" />
+    <state width="2439" height="532" key="GridCell.Tab.0.left" timestamp="1586183949138">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
-    <state width="2439" height="316" key="GridCell.Tab.0.left/78.0.2482.1440@78.0.2482.1440" timestamp="1586167695385" />
-    <state width="2439" height="316" key="GridCell.Tab.0.right" timestamp="1586167695385">
+    <state width="2439" height="532" key="GridCell.Tab.0.left/78.0.2482.1440@78.0.2482.1440" timestamp="1586183949138" />
+    <state width="2439" height="532" key="GridCell.Tab.0.right" timestamp="1586183949138">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
-    <state width="2439" height="316" key="GridCell.Tab.0.right/78.0.2482.1440@78.0.2482.1440" timestamp="1586167695385" />
-    <state width="2439" height="316" key="GridCell.Tab.1.bottom" timestamp="1586167695386">
+    <state width="2439" height="532" key="GridCell.Tab.0.right/78.0.2482.1440@78.0.2482.1440" timestamp="1586183949138" />
+    <state width="2439" height="532" key="GridCell.Tab.1.bottom" timestamp="1586183958459">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
-    <state width="2439" height="316" key="GridCell.Tab.1.bottom/78.0.2482.1440@78.0.2482.1440" timestamp="1586167695386" />
-    <state width="2439" height="316" key="GridCell.Tab.1.center" timestamp="1586167695385">
+    <state width="2439" height="532" key="GridCell.Tab.1.bottom/78.0.2482.1440@78.0.2482.1440" timestamp="1586183958459" />
+    <state width="2439" height="532" key="GridCell.Tab.1.center" timestamp="1586183958459">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
-    <state width="2439" height="316" key="GridCell.Tab.1.center/78.0.2482.1440@78.0.2482.1440" timestamp="1586167695385" />
-    <state width="2439" height="316" key="GridCell.Tab.1.left" timestamp="1586167695385">
+    <state width="2439" height="532" key="GridCell.Tab.1.center/78.0.2482.1440@78.0.2482.1440" timestamp="1586183958459" />
+    <state width="2439" height="532" key="GridCell.Tab.1.left" timestamp="1586183958459">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
-    <state width="2439" height="316" key="GridCell.Tab.1.left/78.0.2482.1440@78.0.2482.1440" timestamp="1586167695385" />
-    <state width="2439" height="316" key="GridCell.Tab.1.right" timestamp="1586167695385">
+    <state width="2439" height="532" key="GridCell.Tab.1.left/78.0.2482.1440@78.0.2482.1440" timestamp="1586183958459" />
+    <state width="2439" height="532" key="GridCell.Tab.1.right" timestamp="1586183958459">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
-    <state width="2439" height="316" key="GridCell.Tab.1.right/78.0.2482.1440@78.0.2482.1440" timestamp="1586167695385" />
-    <state width="2439" height="316" key="GridCell.Tab.2.bottom" timestamp="1586167695388">
+    <state width="2439" height="532" key="GridCell.Tab.1.right/78.0.2482.1440@78.0.2482.1440" timestamp="1586183958459" />
+    <state width="2439" height="532" key="GridCell.Tab.2.bottom" timestamp="1586183948862">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
-    <state width="2439" height="316" key="GridCell.Tab.2.bottom/78.0.2482.1440@78.0.2482.1440" timestamp="1586167695388" />
-    <state width="2439" height="316" key="GridCell.Tab.2.center" timestamp="1586167695387">
+    <state width="2439" height="532" key="GridCell.Tab.2.bottom/78.0.2482.1440@78.0.2482.1440" timestamp="1586183948862" />
+    <state width="2439" height="532" key="GridCell.Tab.2.center" timestamp="1586183948862">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
-    <state width="2439" height="316" key="GridCell.Tab.2.center/78.0.2482.1440@78.0.2482.1440" timestamp="1586167695387" />
-    <state width="2439" height="316" key="GridCell.Tab.2.left" timestamp="1586167695387">
+    <state width="2439" height="532" key="GridCell.Tab.2.center/78.0.2482.1440@78.0.2482.1440" timestamp="1586183948862" />
+    <state width="2439" height="532" key="GridCell.Tab.2.left" timestamp="1586183948862">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
-    <state width="2439" height="316" key="GridCell.Tab.2.left/78.0.2482.1440@78.0.2482.1440" timestamp="1586167695387" />
-    <state width="2439" height="316" key="GridCell.Tab.2.right" timestamp="1586167695387">
+    <state width="2439" height="532" key="GridCell.Tab.2.left/78.0.2482.1440@78.0.2482.1440" timestamp="1586183948862" />
+    <state width="2439" height="532" key="GridCell.Tab.2.right" timestamp="1586183948862">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
-    <state width="2439" height="316" key="GridCell.Tab.2.right/78.0.2482.1440@78.0.2482.1440" timestamp="1586167695387" />
+    <state width="2439" height="532" key="GridCell.Tab.2.right/78.0.2482.1440@78.0.2482.1440" timestamp="1586183948862" />
     <state width="224" height="539" key="HiddenNamespacesPopup" timestamp="1585325422367">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
@@ -613,10 +662,10 @@
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
     <state x="849" y="374" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/78.0.2482.1440@78.0.2482.1440" timestamp="1585749405937" />
-    <state x="917" y="540" width="1056" height="900" key="find.popup" timestamp="1586167091833">
+    <state x="492" y="246" width="1056" height="900" key="find.popup" timestamp="1586179864760">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
-    <state x="917" y="540" width="1056" height="900" key="find.popup/78.0.2482.1440@78.0.2482.1440" timestamp="1586167091833" />
+    <state x="492" y="246" width="1056" height="900" key="find.popup/78.0.2482.1440@78.0.2482.1440" timestamp="1586179864760" />
     <state x="1741" y="684" key="git4idea.merge.GitPullDialog" timestamp="1586167290974">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
@@ -629,14 +678,18 @@
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
     <state x="1737" y="584" width="716" height="307" key="org.intellij.images.editor.actions.BackgroundImageDialog/78.0.2482.1440@78.0.2482.1440" timestamp="1585059917833" />
+    <state x="1022" y="343" key="refactoring.ChangeSignatureDialog" timestamp="1586171041712">
+      <screen x="78" y="0" width="2482" height="1440" />
+    </state>
+    <state x="1022" y="343" key="refactoring.ChangeSignatureDialog/78.0.2482.1440@78.0.2482.1440" timestamp="1586171041712" />
     <state x="975" y="340" width="672" height="677" key="run.anything.popup" timestamp="1586153265905">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
     <state x="975" y="340" width="672" height="677" key="run.anything.popup/78.0.2482.1440@78.0.2482.1440" timestamp="1586153265905" />
-    <state x="1724" y="442" width="672" height="678" key="search.everywhere.popup" timestamp="1585753249192">
+    <state x="1724" y="442" width="672" height="678" key="search.everywhere.popup" timestamp="1586178265597">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
-    <state x="1724" y="442" width="672" height="678" key="search.everywhere.popup/78.0.2482.1440@78.0.2482.1440" timestamp="1585753249192" />
+    <state x="1724" y="442" width="672" height="678" key="search.everywhere.popup/78.0.2482.1440@78.0.2482.1440" timestamp="1586178265597" />
     <state x="819" y="414" key="spring file set editor" timestamp="1582803190449">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
@@ -672,23 +725,43 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/shcd/gxjh/domain/CommonWebAuthInterceptor.java</url>
-          <line>119</line>
-          <option name="timeStamp" value="46" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/shcd/gxjh/domain/CommonWebAuthInterceptor.java</url>
-          <line>55</line>
+          <line>53</line>
           <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/shcd/gxjh/domain/role/AccountManager.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="49" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/shcd/gxjh/domain/CommonWebAuthInterceptor.java</url>
+          <line>114</line>
+          <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/shcd/gxjh/domain/CommonWebAuthInterceptor.java</url>
-          <line>116</line>
-          <option name="timeStamp" value="50" />
+          <line>115</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/shcd/gxjh/domain/role/AccountManager.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/shcd/interceptor/WebAuthInterceptor.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/shcd/gxjh/domain/CommonWebAuthInterceptor.java</url>
+          <line>118</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/shcd/gxjh/domain/CommonWebAuthInterceptor.java</url>
+          <line>120</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/shcd/gxjh/domain/CommonWebAuthInterceptor.java</url>
+          <line>121</line>
+          <option name="timeStamp" value="61" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -50,5 +50,9 @@
             on t1.MOD_CODE = t3.MOD_CODE
         where t1.ROLE_CODE = #{roleCode,jdbcType=NUMERIC}
     </select>
+    <select id="getRoleCode" resultType="java.lang.Integer">
+        select  role from USERINFO
+        where id = #{uid,jdbcType=VARCHAR}
+    </select>
 
 </mapper>

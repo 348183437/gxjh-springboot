@@ -23,4 +23,5 @@ public interface UserMapper{
 
     List<UserPermission> getModList(int roleCode);
 
+    int getRoleCode(String uid);
 }

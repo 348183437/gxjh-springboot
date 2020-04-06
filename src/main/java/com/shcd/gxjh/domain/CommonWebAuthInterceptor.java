@@ -16,10 +16,8 @@ import org.springframework.web.method.HandlerMethod;
 import com.shcd.gxjh.domain.utils.CodingUtils;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-import java.util.Optional;
+import java.util.*;
+
 /**
  * web拦截器的基础实现
  * Created by zhh on 2020/2/21.
@@ -95,7 +93,7 @@ public class CommonWebAuthInterceptor extends WebAuthInterceptor {
         // 获取注解上所有权限
         for (int id : needLogin.value()) {
             // 将权限转换为枚举
-            AccountPermission permission = AccountPermission.getByID(id);
+                                                        AccountPermission permission = AccountPermission.getByID(id);
             Assert.notNull(permission, "权限转换错误, 权限ID :" + id + "，方法 : " + handler.getMethod().getName());
             permissionList.add(permission);
         }
@@ -115,18 +113,25 @@ public class CommonWebAuthInterceptor extends WebAuthInterceptor {
     protected boolean verifyPermissions(AccountIdentifier accountIdentifier, List<Permission> needPermissions, HttpServletRequest request, HttpServletResponse response) {
         // 从账户对象上获取权限列表
         AccountMeta accountMeta = (AccountMeta) accountIdentifier;
-        List<Permission> hadPermissionList = accountManager.getAccount(accountMeta.getUid()).getPermissions();
-        
-        for (Permission permission : needPermissions) {
-            // 判断权限列表是否包含所需权限
-            if (!hadPermissionList.contains(permission)) {
-                return false;
+        List<Permission> hadPermissionList = accountManager.createAccount(accountMeta.getUid()).getPermissions();
+        Map<String, String> needMap = new HashMap<String, String>();
+        Map<String, String> hadMap = new HashMap<String, String>();
+        for (int i = 0;i<needPermissions.size();i++){
+//            needMap.put("id",needPermissions.get(i).getId().toString());
+            for(int j=0;j<hadPermissionList.size();j++){
+                if(needPermissions.get(i).getId().equals(hadPermissionList.get(j).getId())){
+                    return true;
+                }
             }
         }
+//            for(Permission permission:needPermissions) {
+//                if (!hadPermissionList.contains(permission)) {
+//                    return false;
+//                }
+//            }
         // 成功
-        return true;
+        return false;
     }
-
     /**
      * 拒绝流程
      *

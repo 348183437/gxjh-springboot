@@ -31,4 +31,7 @@ public class UserInfoServer {
         return userMapper.getModList(roleCode);
     }
 
+    public int getRoleCode(String uid) {
+        return userMapper.getRoleCode(uid);
+    }
 }

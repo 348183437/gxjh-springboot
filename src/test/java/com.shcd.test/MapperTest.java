@@ -43,8 +43,8 @@ public class MapperTest {
     }
     @Test
     public void testGetPermissionList(){
-       List<UserPermission> list = userMapper.getModList(3);
-//        List<UserPermission> list = userInfoServer.getUserPermission(3);
-       System.out.printf(list.toString());
+//       List<UserPermission> list = userMapper.getModList(3);
+////        List<UserPermission> list = userInfoServer.getUserPermission(3);
+//       System.out.printf(list.toString());
     }
 }

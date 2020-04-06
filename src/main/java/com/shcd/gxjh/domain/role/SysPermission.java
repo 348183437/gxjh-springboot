@@ -8,11 +8,12 @@ import com.shcd.Permission;
  */
 public interface SysPermission extends Permission {
 
-    int TEST_PERMISSION_1 = 1;
+    int PERMISSION_1 = 1;
 
-    int TEST_PERMISSION_2 = 2;
+    int PERMISSION_2 = 2;
 
-    int TEST_PERMISSION_3 = 3;
+    int PERMISSION_3 = 3;
 
+    int PERMISSION_15 = 15;
 
 }
