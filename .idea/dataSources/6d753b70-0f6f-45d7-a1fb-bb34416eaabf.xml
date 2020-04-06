@@ -38,7 +38,7 @@
       <ObjectId>98</ObjectId>
       <CreatedTimestamp>2020-03-26.06:42:32</CreatedTimestamp>
       <ModifiedTimestamp>2020-03-30.00:20:47</ModifiedTimestamp>
-      <IntrospectionTimestamp>2020-03-30.00:20:47</IntrospectionTimestamp>
+      <IntrospectionTimestamp>2020-04-02.06:06:32</IntrospectionTimestamp>
       <CommentsHash>684178137639</CommentsHash>
     </schema>
     <schema id="13" parent="1" name="DB_RQ">

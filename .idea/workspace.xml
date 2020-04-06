@@ -6,7 +6,69 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5c1d737-484c-48b5-8173-d954f293def4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shcd/gxjh/entity/UserPermission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shcd/gxjh/service/UserInfoServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/GrepConsole.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GrepConsole.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6d753b70-0f6f-45d7-a1fb-bb34416eaabf.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6d753b70-0f6f-45d7-a1fb-bb34416eaabf.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6d753b70-0f6f-45d7-a1fb-bb34416eaabf/storage_v2/_src_/schema/DB_FRAME.TEZI4Q.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6d753b70-0f6f-45d7-a1fb-bb34416eaabf/storage_v2/_src_/schema/DB_FRAME.TEZI4Q.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/shcd/AccountIdentifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shcd/AccountIdentifier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/shcd/Permission.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shcd/Permission.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/shcd/annotations/NeedLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shcd/annotations/NeedLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/shcd/gxjh/controller/HelloWordApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/shcd/gxjh/controller/LpAccountApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shcd/GxjhApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/shcd/gxjh/controller/Swagger2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shcd/Swagger2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/shcd/gxjh/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shcd/gxjh/dao/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/shcd/gxjh/domain/AuthConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shcd/gxjh/domain/AuthConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/shcd/gxjh/domain/CommonWebAuthInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shcd/gxjh/domain/CommonWebAuthInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/shcd/gxjh/domain/ResponseHeaderAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shcd/gxjh/domain/ResponseHeaderAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/shcd/gxjh/domain/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shcd/gxjh/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/shcd/gxjh/domain/WebConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shcd/gxjh/domain/WebConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/shcd/gxjh/domain/WebExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shcd/gxjh/domain/WebExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/shcd/gxjh/domain/exception/AuthException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shcd/gxjh/domain/exception/AuthException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/shcd/gxjh/domain/role/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shcd/gxjh/domain/role/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/shcd/gxjh/domain/role/AccountManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shcd/gxjh/domain/role/AccountManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/shcd/gxjh/domain/role/AccountMeta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shcd/gxjh/domain/role/AccountMeta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/shcd/gxjh/domain/role/AccountPermission.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shcd/gxjh/domain/role/AccountPermission.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/shcd/gxjh/domain/role/SysPermission.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shcd/gxjh/domain/role/SysPermission.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/shcd/gxjh/domain/utils/CodingUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shcd/gxjh/domain/utils/CodingUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/shcd/gxjh/entity/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shcd/gxjh/entity/UserInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/shcd/gxjh/entity/UserPermission.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/shcd/gxjh/service/UserInfoServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/shcd/interceptor/WebAuthInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shcd/interceptor/WebAuthInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/shcd/utils/CommonTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shcd/utils/CommonTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/shcd/utils/JwtUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shcd/utils/JwtUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/user-mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/user-mapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com.shcd.test/MapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com.shcd.test/MapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/shcd/AccountIdentifier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/shcd/Permission.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/shcd/annotations/NeedLogin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/shcd/gxjh/controller/HelloWordApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/shcd/gxjh/controller/LpAccountApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/shcd/gxjh/controller/Swagger2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/shcd/gxjh/dao/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/shcd/gxjh/domain/AuthConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/shcd/gxjh/domain/CommonWebAuthInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/shcd/gxjh/domain/ResponseHeaderAdvice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/shcd/gxjh/domain/TestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/shcd/gxjh/domain/WebConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/shcd/gxjh/domain/WebExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/shcd/gxjh/domain/exception/AuthException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/shcd/gxjh/domain/role/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/shcd/gxjh/domain/role/AccountManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/shcd/gxjh/domain/role/AccountMeta.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/shcd/gxjh/domain/role/AccountPermission.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/shcd/gxjh/domain/role/SysPermission.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/shcd/gxjh/domain/utils/CodingUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/shcd/gxjh/entity/UserInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/shcd/gxjh/entity/UserPermission.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/shcd/gxjh/service/UserInfoServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/shcd/interceptor/WebAuthInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/shcd/utils/CommonTools.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/shcd/utils/JwtUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/user-mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/user-mapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/shcd/test/MapperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/shcd/test/MapperTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +144,7 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/main/java/com/cn/shcd/gxjh/domain/TestController.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/shcd/gxjh/controller/UserController.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -124,6 +186,9 @@
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="lp-springboot-jwt" />
+    <property name="MyBatisLogPluginparameters" value="Parameters:" />
+    <property name="MyBatisLogPluginpreparing" value="Preparing:" />
+    <property name="MyBatisLogPluginrunning" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -144,17 +209,18 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="GrepConsole" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Project\Java\gxjh-springboot\src\test\com" />
-      <recent name="D:\Project\Java\gxjh-springboot\src\test" />
-      <recent name="D:\Project\Java\gxjh-springboot\src\test\java\com.gxjh.test" />
-      <recent name="D:\Project\Java\gxjh-springboot\src\main\resources\mapper" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\Java\gxjh-springboot\src\test\java\com.shcd.test" />
+      <recent name="D:\Project\Java\gxjh-springboot\src\test\java" />
+      <recent name="D:\Project\lp-demo\lp-springboot-jwt\src\main" />
+      <recent name="D:\Project\lp-demo\lp-springboot-jwt\src\main\java\com\cn\shcd" />
+      <recent name="D:\Project\lp-demo\lp-springboot-jwt\src\test\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="java.com.gxjh.test" />
@@ -163,12 +229,11 @@
       <recent name="com.cn.lp.domain.utils" />
       <recent name="com.cn.lp.domain.exception" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Project\Java\gxjh-springboot\src\test\java\com.shcd.test" />
-      <recent name="D:\Project\Java\gxjh-springboot\src\test\java" />
-      <recent name="D:\Project\lp-demo\lp-springboot-jwt\src\main" />
-      <recent name="D:\Project\lp-demo\lp-springboot-jwt\src\main\java\com\cn\shcd" />
-      <recent name="D:\Project\lp-demo\lp-springboot-jwt\src\test\resources" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Project\Java\gxjh-springboot\src\test\com" />
+      <recent name="D:\Project\Java\gxjh-springboot\src\test" />
+      <recent name="D:\Project\Java\gxjh-springboot\src\test\java\com.gxjh.test" />
+      <recent name="D:\Project\Java\gxjh-springboot\src\main\resources\mapper" />
     </key>
   </component>
   <component name="RestServicesNavigator">
@@ -190,13 +255,23 @@
       <command value="telnet 10.81.66.1:8080" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MapperTest.testSelectUser">
-    <configuration name="LpAccountApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="C:\Program Files\Java\jdk1.8.0_202\jre" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.cn.shcd.gxjh.controller.LpAccountApplication" />
+  <component name="RunManager" selected="Spring Boot.GxjhApplication">
+    <configuration name="MapperTest.testGetPermissionList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gxjh-springboot" />
-      <option name="REDIRECT_INPUT" value="true" />
+      <option name="PACKAGE_NAME" value="com.shcd.test" />
+      <option name="MAIN_CLASS_NAME" value="com.shcd.test.MapperTest" />
+      <option name="METHOD_NAME" value="testGetPermissionList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapperTest.testLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gxjh-springboot" />
+      <option name="PACKAGE_NAME" value="com.shcd.test" />
+      <option name="MAIN_CLASS_NAME" value="com.shcd.test.MapperTest" />
+      <option name="METHOD_NAME" value="testLogin" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -211,49 +286,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapperTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GxjhApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="gxjh-springboot" />
-      <option name="PACKAGE_NAME" value="com.gxjh.test" />
-      <option name="MAIN_CLASS_NAME" value="java.com.gxjh.test.MapperTests" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shcd.GxjhApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapperTests.testSelectUser (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HelloWordApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="gxjh-springboot" />
-      <option name="PACKAGE_NAME" value="com.shcd.test" />
-      <option name="MAIN_CLASS_NAME" value="testjava.com.shcd.test.MapperTests" />
-      <option name="METHOD_NAME" value="testSelectUser" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cn.shcd.HelloWordApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapperTests.testSelectUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LpAccountApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="gxjh-springboot" />
-      <option name="PACKAGE_NAME" value="java.com.gxjh.test" />
-      <option name="MAIN_CLASS_NAME" value="java.com.gxjh.test.MapperTests" />
-      <option name="METHOD_NAME" value="testSelectUser" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shcd.GxjhApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LpAccountApplication" />
-      <item itemvalue="JUnit.MapperTests.testSelectUser" />
-      <item itemvalue="JUnit.MapperTests" />
-      <item itemvalue="JUnit.MapperTests.testSelectUser (2)" />
       <item itemvalue="JUnit.MapperTest.testSelectUser" />
+      <item itemvalue="JUnit.MapperTest.testLogin" />
+      <item itemvalue="JUnit.MapperTest.testGetPermissionList" />
+      <item itemvalue="Spring Boot.LpAccountApplication (1)" />
+      <item itemvalue="Spring Boot.HelloWordApplication" />
+      <item itemvalue="Spring Boot.GxjhApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.GxjhApplication" />
+        <item itemvalue="JUnit.MapperTest.testLogin" />
+        <item itemvalue="Spring Boot.HelloWordApplication" />
+        <item itemvalue="JUnit.MapperTest.testGetPermissionList" />
         <item itemvalue="JUnit.MapperTest.testSelectUser" />
-        <item itemvalue="JUnit.MapperTests.testSelectUser (2)" />
-        <item itemvalue="JUnit.MapperTests.testSelectUser" />
-        <item itemvalue="JUnit.MapperTests" />
-        <item itemvalue="Application.LpAccountApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -400,18 +469,18 @@
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
     <state x="855" y="584" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/78.0.2482.1440@78.0.2482.1440" timestamp="1585064465323" />
-    <state x="734" y="425" width="1092" height="711" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585473430863">
+    <state x="734" y="425" width="1092" height="711" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586158932400">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
-    <state x="734" y="425" width="1092" height="711" key="#com.intellij.execution.impl.EditConfigurationsDialog/78.0.2482.1440@78.0.2482.1440" timestamp="1585473430863" />
+    <state x="734" y="425" width="1092" height="711" key="#com.intellij.execution.impl.EditConfigurationsDialog/78.0.2482.1440@78.0.2482.1440" timestamp="1586158932400" />
     <state x="1050" y="522" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585472376023">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
     <state x="1050" y="522" key="#com.intellij.fileTypes.FileTypeChooser/78.0.2482.1440@78.0.2482.1440" timestamp="1585472376023" />
-    <state x="1124" y="417" key="#com.intellij.ide.util.MemberChooser" timestamp="1585470207024">
+    <state x="1124" y="417" key="#com.intellij.ide.util.MemberChooser" timestamp="1586165638012">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
-    <state x="1124" y="417" key="#com.intellij.ide.util.MemberChooser/78.0.2482.1440@78.0.2482.1440" timestamp="1585470207024" />
+    <state x="1124" y="417" key="#com.intellij.ide.util.MemberChooser/78.0.2482.1440@78.0.2482.1440" timestamp="1586165638012" />
     <state x="1000" y="606" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1585473429936">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
@@ -420,14 +489,14 @@
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
     <state x="1138" y="410" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/78.0.2482.1440@78.0.2482.1440" timestamp="1585062250594" />
-    <state x="945" y="636" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1585475834212">
+    <state x="945" y="636" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1586158879804">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
-    <state x="945" y="636" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/78.0.2482.1440@78.0.2482.1440" timestamp="1585475834212" />
-    <state x="1098" y="578" width="441" height="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582804323793">
+    <state x="945" y="636" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/78.0.2482.1440@78.0.2482.1440" timestamp="1586158879804" />
+    <state x="1098" y="578" width="451" height="320" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1585754614087">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
-    <state x="1098" y="578" width="441" height="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/78.0.2482.1440@78.0.2482.1440" timestamp="1582804323793" />
+    <state x="1098" y="578" width="451" height="320" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/78.0.2482.1440@78.0.2482.1440" timestamp="1585754614087" />
     <state x="1093" y="588" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1585475837450">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
@@ -440,74 +509,74 @@
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
     <state x="1049" y="466" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/78.0.2482.1440@78.0.2482.1440" timestamp="1585474571544" />
-    <state x="1070" y="304" key="CommitChangelistDialog2" timestamp="1585499625034">
+    <state x="1070" y="304" key="CommitChangelistDialog2" timestamp="1586167143314">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
-    <state x="1070" y="304" key="CommitChangelistDialog2/78.0.2482.1440@78.0.2482.1440" timestamp="1585499625034" />
-    <state width="467" height="466" key="DebuggerActiveHint" timestamp="1582794235533">
+    <state x="1070" y="304" key="CommitChangelistDialog2/78.0.2482.1440@78.0.2482.1440" timestamp="1586167143314" />
+    <state width="653" height="466" key="DebuggerActiveHint" timestamp="1586166692492">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
-    <state width="467" height="466" key="DebuggerActiveHint/78.0.2482.1440@78.0.2482.1440" timestamp="1582794235533" />
+    <state width="653" height="466" key="DebuggerActiveHint/78.0.2482.1440@78.0.2482.1440" timestamp="1586166692492" />
     <state x="0" y="263" key="DiffContextDialog" timestamp="1583325636832">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
     <state x="0" y="263" key="DiffContextDialog/78.0.2482.1440@78.0.2482.1440" timestamp="1583325636832" />
-    <state x="1648" y="515" key="FileChooserDialogImpl" timestamp="1585499891370">
+    <state x="1648" y="515" key="FileChooserDialogImpl" timestamp="1586154020068">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
-    <state x="1648" y="515" key="FileChooserDialogImpl/78.0.2482.1440@78.0.2482.1440" timestamp="1585499891370" />
+    <state x="1648" y="515" key="FileChooserDialogImpl/78.0.2482.1440@78.0.2482.1440" timestamp="1586154020068" />
     <state x="1901" y="747" key="Github.ShareDialog" timestamp="1583327571460">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
     <state x="1901" y="747" key="Github.ShareDialog/78.0.2482.1440@78.0.2482.1440" timestamp="1583327571460" />
-    <state width="2439" height="696" key="GridCell.Tab.0.bottom" timestamp="1585482034629">
+    <state width="2439" height="317" key="GridCell.Tab.0.bottom" timestamp="1586167143390">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
-    <state width="2439" height="696" key="GridCell.Tab.0.bottom/78.0.2482.1440@78.0.2482.1440" timestamp="1585482034629" />
-    <state width="2439" height="696" key="GridCell.Tab.0.center" timestamp="1585482034629">
+    <state width="2439" height="317" key="GridCell.Tab.0.bottom/78.0.2482.1440@78.0.2482.1440" timestamp="1586167143390" />
+    <state width="2439" height="317" key="GridCell.Tab.0.center" timestamp="1586167143390">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
-    <state width="2439" height="696" key="GridCell.Tab.0.center/78.0.2482.1440@78.0.2482.1440" timestamp="1585482034629" />
-    <state width="2439" height="696" key="GridCell.Tab.0.left" timestamp="1585482034629">
+    <state width="2439" height="317" key="GridCell.Tab.0.center/78.0.2482.1440@78.0.2482.1440" timestamp="1586167143390" />
+    <state width="2439" height="317" key="GridCell.Tab.0.left" timestamp="1586167143390">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
-    <state width="2439" height="696" key="GridCell.Tab.0.left/78.0.2482.1440@78.0.2482.1440" timestamp="1585482034629" />
-    <state width="2439" height="696" key="GridCell.Tab.0.right" timestamp="1585482034629">
+    <state width="2439" height="317" key="GridCell.Tab.0.left/78.0.2482.1440@78.0.2482.1440" timestamp="1586167143390" />
+    <state width="2439" height="317" key="GridCell.Tab.0.right" timestamp="1586167143390">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
-    <state width="2439" height="696" key="GridCell.Tab.0.right/78.0.2482.1440@78.0.2482.1440" timestamp="1585482034629" />
-    <state width="2439" height="696" key="GridCell.Tab.1.bottom" timestamp="1585482034630">
+    <state width="2439" height="317" key="GridCell.Tab.0.right/78.0.2482.1440@78.0.2482.1440" timestamp="1586167143390" />
+    <state width="2439" height="317" key="GridCell.Tab.1.bottom" timestamp="1586167143391">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
-    <state width="2439" height="696" key="GridCell.Tab.1.bottom/78.0.2482.1440@78.0.2482.1440" timestamp="1585482034629" />
-    <state width="2439" height="696" key="GridCell.Tab.1.center" timestamp="1585482034629">
+    <state width="2439" height="317" key="GridCell.Tab.1.bottom/78.0.2482.1440@78.0.2482.1440" timestamp="1586167143391" />
+    <state width="2439" height="317" key="GridCell.Tab.1.center" timestamp="1586167143390">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
-    <state width="2439" height="696" key="GridCell.Tab.1.center/78.0.2482.1440@78.0.2482.1440" timestamp="1585482034629" />
-    <state width="2439" height="696" key="GridCell.Tab.1.left" timestamp="1585482034629">
+    <state width="2439" height="317" key="GridCell.Tab.1.center/78.0.2482.1440@78.0.2482.1440" timestamp="1586167143390" />
+    <state width="2439" height="317" key="GridCell.Tab.1.left" timestamp="1586167143390">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
-    <state width="2439" height="696" key="GridCell.Tab.1.left/78.0.2482.1440@78.0.2482.1440" timestamp="1585482034629" />
-    <state width="2439" height="696" key="GridCell.Tab.1.right" timestamp="1585482034629">
+    <state width="2439" height="317" key="GridCell.Tab.1.left/78.0.2482.1440@78.0.2482.1440" timestamp="1586167143390" />
+    <state width="2439" height="317" key="GridCell.Tab.1.right" timestamp="1586167143391">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
-    <state width="2439" height="696" key="GridCell.Tab.1.right/78.0.2482.1440@78.0.2482.1440" timestamp="1585482034629" />
-    <state width="2439" height="491" key="GridCell.Tab.2.bottom" timestamp="1582810079743">
+    <state width="2439" height="317" key="GridCell.Tab.1.right/78.0.2482.1440@78.0.2482.1440" timestamp="1586167143391" />
+    <state width="2439" height="317" key="GridCell.Tab.2.bottom" timestamp="1586167143391">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
-    <state width="2439" height="491" key="GridCell.Tab.2.bottom/78.0.2482.1440@78.0.2482.1440" timestamp="1582810079743" />
-    <state width="2439" height="491" key="GridCell.Tab.2.center" timestamp="1582810079743">
+    <state width="2439" height="317" key="GridCell.Tab.2.bottom/78.0.2482.1440@78.0.2482.1440" timestamp="1586167143391" />
+    <state width="2439" height="317" key="GridCell.Tab.2.center" timestamp="1586167143391">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
-    <state width="2439" height="491" key="GridCell.Tab.2.center/78.0.2482.1440@78.0.2482.1440" timestamp="1582810079743" />
-    <state width="2439" height="491" key="GridCell.Tab.2.left" timestamp="1582810079743">
+    <state width="2439" height="317" key="GridCell.Tab.2.center/78.0.2482.1440@78.0.2482.1440" timestamp="1586167143391" />
+    <state width="2439" height="317" key="GridCell.Tab.2.left" timestamp="1586167143391">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
-    <state width="2439" height="491" key="GridCell.Tab.2.left/78.0.2482.1440@78.0.2482.1440" timestamp="1582810079743" />
-    <state width="2439" height="491" key="GridCell.Tab.2.right" timestamp="1582810079743">
+    <state width="2439" height="317" key="GridCell.Tab.2.left/78.0.2482.1440@78.0.2482.1440" timestamp="1586167143391" />
+    <state width="2439" height="317" key="GridCell.Tab.2.right" timestamp="1586167143391">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
-    <state width="2439" height="491" key="GridCell.Tab.2.right/78.0.2482.1440@78.0.2482.1440" timestamp="1582810079743" />
+    <state width="2439" height="317" key="GridCell.Tab.2.right/78.0.2482.1440@78.0.2482.1440" timestamp="1586167143391" />
     <state width="224" height="539" key="HiddenNamespacesPopup" timestamp="1585325422367">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
@@ -520,10 +589,10 @@
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
     <state x="849" y="375" key="Maven.ArtifactSearchDialog/78.0.2482.1440@78.0.2482.1440" timestamp="1585474777998" />
-    <state x="360" y="525" width="1274" height="708" key="SettingsEditor" timestamp="1585476463787">
+    <state x="360" y="525" width="1274" height="708" key="SettingsEditor" timestamp="1586153268610">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
-    <state x="360" y="525" width="1274" height="708" key="SettingsEditor/78.0.2482.1440@78.0.2482.1440" timestamp="1585476463787" />
+    <state x="360" y="525" width="1274" height="708" key="SettingsEditor/78.0.2482.1440@78.0.2482.1440" timestamp="1586153268610" />
     <state x="1040" y="461" width="540" height="540" key="StructurePopup" timestamp="1585062825260">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
@@ -532,10 +601,10 @@
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
     <state x="1165" y="628" key="VCS.ChangelistChooser/78.0.2482.1440@78.0.2482.1440" timestamp="1585386631062" />
-    <state x="1489" y="479" width="816" height="534" key="Vcs.Push.Dialog.v2" timestamp="1585062231123">
+    <state x="1489" y="479" width="816" height="534" key="Vcs.Push.Dialog.v2" timestamp="1585500043228">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
-    <state x="1489" y="479" width="816" height="534" key="Vcs.Push.Dialog.v2/78.0.2482.1440@78.0.2482.1440" timestamp="1585062231123" />
+    <state x="1489" y="479" width="816" height="534" key="Vcs.Push.Dialog.v2/78.0.2482.1440@78.0.2482.1440" timestamp="1585500043228" />
     <state x="1118" y="497" key="chooseDestDirectoryDialog" timestamp="1585476253077">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
@@ -544,18 +613,22 @@
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
     <state x="899" y="375" key="com.intellij.database.dbimport.ImportDialog/78.0.2482.1440@78.0.2482.1440" timestamp="1585385072378" />
-    <state x="1049" y="525" key="com.intellij.database.dbimport.ImportUtil.MyDialog" timestamp="1585380325293">
+    <state x="1049" y="525" key="com.intellij.database.dbimport.ImportUtil.MyDialog" timestamp="1585750310331">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
-    <state x="1049" y="525" key="com.intellij.database.dbimport.ImportUtil.MyDialog/78.0.2482.1440@78.0.2482.1440" timestamp="1585380325293" />
+    <state x="1049" y="525" key="com.intellij.database.dbimport.ImportUtil.MyDialog/78.0.2482.1440@78.0.2482.1440" timestamp="1585750310331" />
     <state x="1093" y="531" width="451" height="372" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1585383176899">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
     <state x="1093" y="531" width="451" height="372" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/78.0.2482.1440@78.0.2482.1440" timestamp="1585383176899" />
-    <state x="1130" y="510" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1585470161308">
+    <state x="1130" y="510" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1585757557239">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
-    <state x="1130" y="510" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/78.0.2482.1440@78.0.2482.1440" timestamp="1585470161308" />
+    <state x="1130" y="510" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/78.0.2482.1440@78.0.2482.1440" timestamp="1585757557239" />
+    <state x="833" y="425" key="com.intellij.execution.console.ConsoleHistoryController$MyBrowseAction$1" timestamp="1585750121306">
+      <screen x="78" y="0" width="2482" height="1440" />
+    </state>
+    <state x="833" y="425" key="com.intellij.execution.console.ConsoleHistoryController$MyBrowseAction$1/78.0.2482.1440@78.0.2482.1440" timestamp="1585750121306" />
     <state x="1562" y="1004" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585499565514">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
@@ -564,30 +637,34 @@
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
     <state x="1090" y="422" key="com.intellij.testIntegration.createTest.CreateTestDialog/78.0.2482.1440@78.0.2482.1440" timestamp="1582528470609" />
-    <state x="917" y="540" width="1056" height="900" key="find.popup" timestamp="1585474630348">
+    <state x="849" y="374" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1585749405937">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
-    <state x="917" y="540" width="1056" height="900" key="find.popup/78.0.2482.1440@78.0.2482.1440" timestamp="1585474630348" />
+    <state x="849" y="374" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/78.0.2482.1440@78.0.2482.1440" timestamp="1585749405937" />
+    <state x="917" y="540" width="1056" height="900" key="find.popup" timestamp="1586167091833">
+      <screen x="78" y="0" width="2482" height="1440" />
+    </state>
+    <state x="917" y="540" width="1056" height="900" key="find.popup/78.0.2482.1440@78.0.2482.1440" timestamp="1586167091833" />
     <state x="1741" y="684" key="git4idea.merge.GitPullDialog" timestamp="1583326496202">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
     <state x="1741" y="684" key="git4idea.merge.GitPullDialog/78.0.2482.1440@78.0.2482.1440" timestamp="1583326496202" />
-    <state x="693" y="494" key="new project wizard" timestamp="1585312325794">
+    <state x="693" y="494" key="new project wizard" timestamp="1585981918216">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
-    <state x="693" y="494" key="new project wizard/78.0.2482.1440@78.0.2482.1440" timestamp="1585312325794" />
+    <state x="693" y="494" key="new project wizard/78.0.2482.1440@78.0.2482.1440" timestamp="1585981918216" />
     <state x="1737" y="584" width="716" height="307" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1585059917833">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
     <state x="1737" y="584" width="716" height="307" key="org.intellij.images.editor.actions.BackgroundImageDialog/78.0.2482.1440@78.0.2482.1440" timestamp="1585059917833" />
-    <state x="975" y="340" width="672" height="677" key="run.anything.popup" timestamp="1585153651521">
+    <state x="975" y="340" width="672" height="677" key="run.anything.popup" timestamp="1586153265905">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
-    <state x="975" y="340" width="672" height="677" key="run.anything.popup/78.0.2482.1440@78.0.2482.1440" timestamp="1585153651521" />
-    <state x="1724" y="442" width="672" height="678" key="search.everywhere.popup" timestamp="1585386148911">
+    <state x="975" y="340" width="672" height="677" key="run.anything.popup/78.0.2482.1440@78.0.2482.1440" timestamp="1586153265905" />
+    <state x="1724" y="442" width="672" height="678" key="search.everywhere.popup" timestamp="1585753249192">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
-    <state x="1724" y="442" width="672" height="678" key="search.everywhere.popup/78.0.2482.1440@78.0.2482.1440" timestamp="1585386148911" />
+    <state x="1724" y="442" width="672" height="678" key="search.everywhere.popup/78.0.2482.1440@78.0.2482.1440" timestamp="1585753249192" />
     <state x="819" y="414" key="spring file set editor" timestamp="1582803190449">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
@@ -597,19 +674,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/cn/shcd/interceptor/WebAuthInterceptor.java</url>
-          <line>65</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/com/cn/shcd/gxjh/domain/CommonWebAuthInterceptor.java</url>
           <line>91</line>
           <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/cn/shcd/interceptor/WebAuthInterceptor.java</url>
-          <line>60</line>
-          <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/com/cn/shcd/gxjh/domain/TestController.java</url>
@@ -627,29 +694,29 @@
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/cn/shcd/interceptor/WebAuthInterceptor.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/cn/shcd/utils/CommonTools.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/cn/shcd/gxjh/domain/CommonWebAuthInterceptor.java</url>
-          <line>55</line>
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/cn/shcd/gxjh/domain/TestController.java</url>
-          <line>61</line>
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/cn/shcd/gxjh/domain/TestController.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/shcd/gxjh/controller/UserController.java</url>
           <line>62</line>
-          <option name="timeStamp" value="36" />
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/shcd/gxjh/domain/CommonWebAuthInterceptor.java</url>
+          <line>119</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/shcd/gxjh/domain/CommonWebAuthInterceptor.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/shcd/gxjh/domain/role/AccountManager.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/shcd/gxjh/domain/CommonWebAuthInterceptor.java</url>
+          <line>116</line>
+          <option name="timeStamp" value="50" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -673,55 +740,6 @@
         <watch expression="authConfig.getTokenSecretKey()" language="JAVA" />
       </configuration>
     </watches-manager>
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="watch">
-      <expression>
-        <expression-string>authConfig.getTokenSecretKey()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>CodingUtils.decryptAES(token, authConfig.getTokenSecretKey())</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>authConfig.getSecretKey()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>request.getHeader(&quot;lp_token&quot;)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>request.getHeader(&quot;accept&quot;)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>request.getHeader(&quot;lp-token&quot;)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>request.getHeaderNames()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>request</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>gameJudgeConfigList</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
   </component>
   <component name="mavenExecuteGoalHistory">
     <option value="$PROJECT_DIR$" />
