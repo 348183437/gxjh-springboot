@@ -6,69 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5c1d737-484c-48b5-8173-d954f293def4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shcd/gxjh/entity/UserPermission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shcd/gxjh/service/UserInfoServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/GrepConsole.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GrepConsole.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6d753b70-0f6f-45d7-a1fb-bb34416eaabf.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6d753b70-0f6f-45d7-a1fb-bb34416eaabf.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6d753b70-0f6f-45d7-a1fb-bb34416eaabf/storage_v2/_src_/schema/DB_FRAME.TEZI4Q.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6d753b70-0f6f-45d7-a1fb-bb34416eaabf/storage_v2/_src_/schema/DB_FRAME.TEZI4Q.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/shcd/AccountIdentifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shcd/AccountIdentifier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/shcd/Permission.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shcd/Permission.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/shcd/annotations/NeedLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shcd/annotations/NeedLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/shcd/gxjh/controller/HelloWordApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/shcd/gxjh/controller/LpAccountApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shcd/GxjhApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/shcd/gxjh/controller/Swagger2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shcd/Swagger2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/shcd/gxjh/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shcd/gxjh/dao/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/shcd/gxjh/domain/AuthConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shcd/gxjh/domain/AuthConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/shcd/gxjh/domain/CommonWebAuthInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shcd/gxjh/domain/CommonWebAuthInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/shcd/gxjh/domain/ResponseHeaderAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shcd/gxjh/domain/ResponseHeaderAdvice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/shcd/gxjh/domain/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shcd/gxjh/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/shcd/gxjh/domain/WebConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shcd/gxjh/domain/WebConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/shcd/gxjh/domain/WebExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shcd/gxjh/domain/WebExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/shcd/gxjh/domain/exception/AuthException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shcd/gxjh/domain/exception/AuthException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/shcd/gxjh/domain/role/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shcd/gxjh/domain/role/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/shcd/gxjh/domain/role/AccountManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shcd/gxjh/domain/role/AccountManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/shcd/gxjh/domain/role/AccountMeta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shcd/gxjh/domain/role/AccountMeta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/shcd/gxjh/domain/role/AccountPermission.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shcd/gxjh/domain/role/AccountPermission.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/shcd/gxjh/domain/role/SysPermission.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shcd/gxjh/domain/role/SysPermission.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/shcd/gxjh/domain/utils/CodingUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shcd/gxjh/domain/utils/CodingUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/shcd/gxjh/entity/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shcd/gxjh/entity/UserInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/shcd/gxjh/entity/UserPermission.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/shcd/gxjh/service/UserInfoServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/shcd/interceptor/WebAuthInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shcd/interceptor/WebAuthInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/shcd/utils/CommonTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shcd/utils/CommonTools.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/shcd/utils/JwtUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shcd/utils/JwtUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/user-mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/user-mapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com.shcd.test/MapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com.shcd.test/MapperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/shcd/AccountIdentifier.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/shcd/Permission.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/shcd/annotations/NeedLogin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/shcd/gxjh/controller/HelloWordApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/shcd/gxjh/controller/LpAccountApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/shcd/gxjh/controller/Swagger2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/shcd/gxjh/dao/UserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/shcd/gxjh/domain/AuthConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/shcd/gxjh/domain/CommonWebAuthInterceptor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/shcd/gxjh/domain/ResponseHeaderAdvice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/shcd/gxjh/domain/TestController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/shcd/gxjh/domain/WebConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/shcd/gxjh/domain/WebExceptionHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/shcd/gxjh/domain/exception/AuthException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/shcd/gxjh/domain/role/Account.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/shcd/gxjh/domain/role/AccountManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/shcd/gxjh/domain/role/AccountMeta.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/shcd/gxjh/domain/role/AccountPermission.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/shcd/gxjh/domain/role/SysPermission.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/shcd/gxjh/domain/utils/CodingUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/shcd/gxjh/entity/UserInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/shcd/gxjh/entity/UserPermission.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/shcd/gxjh/service/UserInfoServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/shcd/interceptor/WebAuthInterceptor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/shcd/utils/CommonTools.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/shcd/utils/JwtUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/user-mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/user-mapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/shcd/test/MapperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/shcd/test/MapperTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -509,10 +447,10 @@
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
     <state x="1049" y="466" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/78.0.2482.1440@78.0.2482.1440" timestamp="1585474571544" />
-    <state x="1070" y="304" key="CommitChangelistDialog2" timestamp="1586167143314">
+    <state x="1070" y="304" key="CommitChangelistDialog2" timestamp="1586167172055">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
-    <state x="1070" y="304" key="CommitChangelistDialog2/78.0.2482.1440@78.0.2482.1440" timestamp="1586167143314" />
+    <state x="1070" y="304" key="CommitChangelistDialog2/78.0.2482.1440@78.0.2482.1440" timestamp="1586167172055" />
     <state width="653" height="466" key="DebuggerActiveHint" timestamp="1586166692492">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
@@ -645,10 +583,10 @@
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
     <state x="917" y="540" width="1056" height="900" key="find.popup/78.0.2482.1440@78.0.2482.1440" timestamp="1586167091833" />
-    <state x="1741" y="684" key="git4idea.merge.GitPullDialog" timestamp="1583326496202">
+    <state x="1741" y="684" key="git4idea.merge.GitPullDialog" timestamp="1586167290974">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
-    <state x="1741" y="684" key="git4idea.merge.GitPullDialog/78.0.2482.1440@78.0.2482.1440" timestamp="1583326496202" />
+    <state x="1741" y="684" key="git4idea.merge.GitPullDialog/78.0.2482.1440@78.0.2482.1440" timestamp="1586167290974" />
     <state x="693" y="494" key="new project wizard" timestamp="1585981918216">
       <screen x="78" y="0" width="2482" height="1440" />
     </state>
