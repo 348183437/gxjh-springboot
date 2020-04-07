@@ -8,15 +8,8 @@
       </database-info>
       <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact" />
       <secret-storage>master_key</secret-storage>
-      <user-name>db_shcd</user-name>
-      <schema-mapping>
-        <introspection-scope>
-          <node kind="schema">
-            <name qname="@" />
-            <name qname="DB_FRAME" />
-          </node>
-        </introspection-scope>
-      </schema-mapping>
+      <user-name>db_frame</user-name>
+      <introspection-schemas>*:DB_FRAME</introspection-schemas>
     </data-source>
   </component>
 </project>

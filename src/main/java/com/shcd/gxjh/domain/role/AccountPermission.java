@@ -12,6 +12,7 @@ public enum AccountPermission implements SysPermission {
     PERMISSION_3(SysPermission.PERMISSION_1, "测试权限3"),
 
     PERMISSION_15(SysPermission.PERMISSION_15, "测试权限15"),;
+
     private int id;
 
     private String desc;

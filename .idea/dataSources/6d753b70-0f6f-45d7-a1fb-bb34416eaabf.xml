@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="政务网">
-  <database-model serializer="dbm" dbms="ORACLE" family-id="ORACLE" format-version="4.17">
+  <database-model serializer="dbm" dbms="ORACLE" family-id="ORACLE" format-version="4.14">
     <root id="1">
       <ServerVersion>11.2.0.4.0</ServerVersion>
     </root>
@@ -37,17 +37,17 @@
     <schema id="12" parent="1" name="DB_FRAME">
       <ObjectId>98</ObjectId>
       <CreatedTimestamp>2020-03-26.06:42:32</CreatedTimestamp>
-      <ModifiedTimestamp>2020-03-30.00:20:47</ModifiedTimestamp>
-      <IntrospectionTimestamp>2020-04-02.06:06:32</IntrospectionTimestamp>
-      <CommentsHash>684178137639</CommentsHash>
+      <ModifiedTimestamp>2020-04-08.00:18:23</ModifiedTimestamp>
+      <IntrospectionTimestamp>2020-04-08.00:18:24</IntrospectionTimestamp>
+      <CommentsHash>906513456044</CommentsHash>
+      <Current>1</Current>
+      <Visible>1</Visible>
     </schema>
     <schema id="13" parent="1" name="DB_RQ">
       <ObjectId>92</ObjectId>
     </schema>
     <schema id="14" parent="1" name="DB_SHCD">
       <ObjectId>95</ObjectId>
-      <IntrospectionTimestamp>2020-03-28.23:18:41</IntrospectionTimestamp>
-      <Current>1</Current>
     </schema>
     <schema id="15" parent="1" name="DB_WYZX">
       <ObjectId>94</ObjectId>
@@ -111,8 +111,6 @@
     </schema>
     <schema id="35" parent="1" name="PUBLIC">
       <ObjectId>1</ObjectId>
-      <CreatedTimestamp>2013-10-10.02:23:43</CreatedTimestamp>
-      <ModifiedTimestamp>2019-11-09.22:44:11</ModifiedTimestamp>
     </schema>
     <schema id="36" parent="1" name="SCOTT">
       <ObjectId>83</ObjectId>
@@ -165,7 +163,7 @@
       <ObjectId>91409</ObjectId>
       <Comment>系统模块表</Comment>
       <CreatedTimestamp>2020-03-29.00:17:09</CreatedTimestamp>
-      <ModifiedTimestamp>2020-03-29.00:42:33</ModifiedTimestamp>
+      <ModifiedTimestamp>2020-04-08.00:18:23</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
     <table id="50" parent="12" name="USERINFO">
@@ -204,73 +202,94 @@
       <Comment>模块等级(1:一级菜单...)</Comment>
       <DataType>NUMBER(*)|0s</DataType>
     </column>
-    <column id="56" parent="50" name="ID">
+    <column id="56" parent="49" name="MOD_PID">
+      <Position>4</Position>
+      <Comment>父节点</Comment>
+      <DataType>NUMBER(*)|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="57" parent="49" name="MOD_URL">
+      <Position>5</Position>
+      <Comment>模块链接</Comment>
+      <DataType>NVARCHAR2(200 char)|0s</DataType>
+    </column>
+    <column id="58" parent="49" name="PAGE_ID">
+      <Position>6</Position>
+      <Comment>页面上使用的id</Comment>
+      <DataType>NVARCHAR2(200 char)|0s</DataType>
+    </column>
+    <column id="59" parent="49" name="PAGE_LOCN">
+      <Position>7</Position>
+      <Comment>页面上使用的图标</Comment>
+      <DataType>NVARCHAR2(50 char)|0s</DataType>
+    </column>
+    <column id="60" parent="50" name="ID">
       <Position>1</Position>
       <DataType>VARCHAR2(50 byte)|0s</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>sys_guid()</DefaultExpression>
     </column>
-    <column id="57" parent="50" name="USERNAME">
+    <column id="61" parent="50" name="USERNAME">
       <Position>2</Position>
       <Comment>用户名
 </Comment>
       <DataType>VARCHAR2(30 byte)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="58" parent="50" name="PASSWORD">
+    <column id="62" parent="50" name="PASSWORD">
       <Position>3</Position>
       <Comment>用户密码</Comment>
       <DataType>VARCHAR2(20 byte)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="59" parent="50" name="TYPE">
+    <column id="63" parent="50" name="TYPE">
       <Position>4</Position>
       <Comment>是否有效（0-无效；1-有效）</Comment>
       <DataType>NUMBER(*)|0s</DataType>
       <DefaultExpression>1</DefaultExpression>
     </column>
-    <column id="60" parent="50" name="PASSWORDBODY">
+    <column id="64" parent="50" name="PASSWORDBODY">
       <Position>5</Position>
       <Comment>未加密秘钥</Comment>
       <DataType>VARCHAR2(30 byte)|0s</DataType>
     </column>
-    <column id="61" parent="50" name="SALT">
+    <column id="65" parent="50" name="SALT">
       <Position>6</Position>
       <Comment>盐（用于加密）
 </Comment>
       <DataType>VARCHAR2(50 byte)|0s</DataType>
       <DefaultExpression>sys_guid()</DefaultExpression>
     </column>
-    <column id="62" parent="50" name="ROLE">
+    <column id="66" parent="50" name="ROLE">
       <Position>7</Position>
       <Comment>用户角色</Comment>
       <DataType>NUMBER(*)|0s</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>1</DefaultExpression>
     </column>
-    <column id="63" parent="51" name="ROLE_CODE">
+    <column id="67" parent="51" name="ROLE_CODE">
       <Position>1</Position>
       <Comment>角色代码</Comment>
       <DataType>NUMBER(*)|0s</DataType>
     </column>
-    <column id="64" parent="51" name="MOD_CODE">
+    <column id="68" parent="51" name="MOD_CODE">
       <Position>2</Position>
       <Comment>模块代码</Comment>
       <DataType>NUMBER(*)|0s</DataType>
     </column>
-    <column id="65" parent="52" name="CODE">
+    <column id="69" parent="52" name="CODE">
       <Position>1</Position>
       <Comment>角色编码，和用户表做关联</Comment>
       <DataType>NUMBER(*)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="66" parent="52" name="NAME">
+    <column id="70" parent="52" name="NAME">
       <Position>2</Position>
       <Comment>角色名称
 </Comment>
       <DataType>NVARCHAR2(20 char)|0s</DataType>
     </column>
-    <index id="67" parent="52" name="USER_ROLE_PK">
+    <index id="71" parent="52" name="USER_ROLE_PK">
       <ObjectId>91379</ObjectId>
       <CreatedTimestamp>2020-03-28.09:24:43</CreatedTimestamp>
       <ModifiedTimestamp>2020-03-28.09:24:43</ModifiedTimestamp>
@@ -278,7 +297,7 @@
       <ColNames>CODE</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="68" parent="52" name="USER_ROLE_PK">
+    <key id="72" parent="52" name="USER_ROLE_PK">
       <ModifiedTimestamp>2020-03-28.09:24:43</ModifiedTimestamp>
       <ColNames>CODE</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
