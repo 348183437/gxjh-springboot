@@ -18,6 +18,7 @@ import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -31,6 +32,7 @@ import java.util.Map;
 /**
  * Created by zhh on 2020/2/23.
  */
+@CrossOrigin
 @RestController
 @ApiOperation(value = "测试接口")
 public class UserController {
@@ -84,7 +86,7 @@ public class UserController {
             return  CommonTools.returnString("密码错误","401",jsonObject);
         }
     }
-    @NeedLogin(SysPermission.PERMISSION_15)
+    @NeedLogin(SysPermission.PERMISSION_1)
     @ApiImplicitParams({
             @ApiImplicitParam(paramType = "header", dataType = "String", name = "lp_token", value = "令牌", required = true)
     })
